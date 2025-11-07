@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Job Hiring Portal - Waterfall" company="" webLink="http://" view-date="2025-11-05" view-index="0" gantt-divider-location="353" resource-divider-location="301" version="3.2.3230" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- Local time zone: UTC -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Job Hiring Portal - Waterfall Model" color="#8cb6ce" meeting="false" start="2025-11-05" duration="80" complete="0" expand="true">
+            <task id="1" name="Phase 1: Requirements Analysis" color="#8cb6ce" meeting="false" start="2025-11-05" duration="12" complete="0" expand="true">
+                <task id="2" name="Stakeholder Meetings" color="#8cb6ce" meeting="false" start="2025-11-05" duration="3" complete="0" expand="false"/>
+                <task id="3" name="Requirements Gathering" color="#8cb6ce" meeting="false" start="2025-11-08" duration="5" complete="0" expand="false"/>
+                <task id="4" name="Requirements Documentation" color="#8cb6ce" meeting="false" start="2025-11-15" duration="3" complete="0" expand="false"/>
+                <task id="5" name="SRS Review &amp; Sign-off" color="#8cb6ce" meeting="false" start="2025-11-20" duration="1" complete="0" expand="false"/>
+            </task>
+            <task id="6" name="Phase 2: System Design" color="#8cb6ce" meeting="false" start="2025-11-21" duration="15" complete="0" expand="true">
+                <task id="7" name="High-Level Architecture Design" color="#8cb6ce" meeting="false" start="2025-11-21" duration="4" complete="0" expand="false"/>
+                <task id="8" name="Database Design" color="#8cb6ce" meeting="false" start="2025-11-27" duration="4" complete="0" expand="false"/>
+                <task id="9" name="UI/UX Design" color="#8cb6ce" meeting="false" start="2025-12-03" duration="5" complete="0" expand="false"/>
+                <task id="10" name="Module-Level Design" color="#8cb6ce" meeting="false" start="2025-12-10" duration="4" complete="0" expand="false"/>
+                <task id="11" name="Design Review &amp; Approval" color="#8cb6ce" meeting="false" start="2025-12-16" duration="2" complete="0" expand="false"/>
+            </task>
+            <task id="12" name="Phase 3: Implementation" color="#8cb6ce" meeting="false" start="2025-12-18" duration="30" complete="0" expand="true">
+                <task id="13" name="Database Setup &amp; Configuration" color="#8cb6ce" meeting="false" start="2025-12-18" duration="3" complete="0" expand="false"/>
+                <task id="14" name="User Authentication Module" color="#8cb6ce" meeting="false" start="2025-12-23" duration="6" complete="0" expand="false"/>
+                <task id="15" name="Profile Management Module" color="#8cb6ce" meeting="false" start="2025-12-31" duration="5" complete="0" expand="false"/>
+                <task id="16" name="Job Posting Module" color="#8cb6ce" meeting="false" start="2026-01-07" duration="6" complete="0" expand="false"/>
+                <task id="17" name="Job Search &amp; Filter Module" color="#8cb6ce" meeting="false" start="2026-01-15" duration="5" complete="0" expand="false"/>
+                <task id="18" name="Application Management Module" color="#8cb6ce" meeting="false" start="2026-01-22" duration="6" complete="0" expand="false"/>
+                <task id="19" name="Notification System" color="#8cb6ce" meeting="false" start="2026-01-30" duration="4" complete="0" expand="false"/>
+                <task id="20" name="Dashboard Development" color="#8cb6ce" meeting="false" start="2026-02-05" duration="5" complete="0" expand="false"/>
+                <task id="21" name="Admin Panel &amp; Reports" color="#8cb6ce" meeting="false" start="2026-02-12" duration="6" complete="0" expand="false"/>
+                <task id="22" name="Code Review &amp; Integration" color="#8cb6ce" meeting="false" start="2026-02-20" duration="3" complete="0" expand="false"/>
+            </task>
+            <task id="23" name="Phase 4: Testing" color="#8cb6ce" meeting="false" start="2026-02-23" duration="15" complete="0" expand="true">
+                <task id="24" name="Unit Testing" color="#8cb6ce" meeting="false" start="2026-02-23" duration="4" complete="0" expand="false"/>
+                <task id="25" name="Integration Testing" color="#8cb6ce" meeting="false" start="2026-02-27" duration="4" complete="0" expand="false"/>
+                <task id="26" name="System Testing" color="#8cb6ce" meeting="false" start="2026-03-05" duration="4" complete="0" expand="false"/>
+                <task id="27" name="User Acceptance Testing" color="#8cb6ce" meeting="false" start="2026-03-11" duration="4" complete="0" expand="false"/>
+                <task id="28" name="Performance &amp; Security Testing" color="#8cb6ce" meeting="false" start="2026-03-17" duration="3" complete="0" expand="false"/>
+                <task id="29" name="Bug Fixes &amp; Retesting" color="#8cb6ce" meeting="false" start="2026-03-20" duration="4" complete="0" expand="false"/>
+            </task>
+            <task id="30" name="Phase 5: Deployment" color="#8cb6ce" meeting="false" start="2026-03-26" duration="6" complete="0" expand="true">
+                <task id="31" name="Production Environment Setup" color="#8cb6ce" meeting="false" start="2026-03-26" duration="2" complete="0" expand="false"/>
+                <task id="32" name="Data Migration" color="#8cb6ce" meeting="false" start="2026-03-30" duration="2" complete="0" expand="false"/>
+                <task id="33" name="System Deployment" color="#8cb6ce" meeting="false" start="2026-04-01" duration="1" complete="0" expand="false"/>
+                <task id="34" name="Post-Deployment Verification" color="#8cb6ce" meeting="false" start="2026-04-02" duration="2" complete="0" expand="false"/>
+            </task>
+            <task id="35" name="Phase 6: Maintenance" color="#8cb6ce" meeting="false" start="2026-04-04" duration="8" complete="0" expand="true">
+                <task id="36" name="User Training &amp; Documentation" color="#8cb6ce" meeting="false" start="2026-04-04" duration="4" complete="0" expand="false"/>
+                <task id="37" name="Initial Support &amp; Monitoring" color="#8cb6ce" meeting="false" start="2026-04-10" duration="5" complete="0" expand="false"/>
+                <task id="38" name="Project Handover" color="#8cb6ce" meeting="false" start="2026-04-17" duration="2" complete="0" expand="false"/>
+            </task>
+            <task id="39" name="Project Complete" color="#8cb6ce" meeting="true" start="2026-04-20" duration="0" complete="0" expand="false"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Project Manager" function="Default:1" contacts="" phone="">
+            <rate name="standard" value="55"/>
+        </resource>
+        <resource id="1" name="Business Analyst" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="50"/>
+        </resource>
+        <resource id="2" name="System Architect" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="60"/>
+        </resource>
+        <resource id="3" name="UI/UX Designer" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="42"/>
+        </resource>
+        <resource id="4" name="Frontend Developer" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="45"/>
+        </resource>
+        <resource id="5" name="Backend Developer" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="45"/>
+        </resource>
+        <resource id="6" name="Database Administrator" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="48"/>
+        </resource>
+        <resource id="7" name="QA Lead" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="42"/>
+        </resource>
+        <resource id="8" name="QA Engineer" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="38"/>
+        </resource>
+        <resource id="9" name="DevOps Engineer" function="Default:0" contacts="" phone="">
+            <rate name="standard" value="50"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="true" load="80.0"/>
+        <allocation task-id="8" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="Default:0" responsible="true" load="60.0"/>
+        <allocation task-id="22" resource-id="5" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="24" resource-id="7" function="Default:0" responsible="true" load="80.0"/>
+        <allocation task-id="24" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:1" responsible="true" load="80.0"/>
+        <allocation task-id="27" resource-id="7" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="8" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="4" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="29" resource-id="5" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="29" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="9" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="9" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="7" function="Default:0" responsible="true" load="80.0"/>
+        <allocation task-id="34" resource-id="9" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:1" responsible="true" load="60.0"/>
+        <allocation task-id="36" resource-id="1" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="37" resource-id="7" function="Default:0" responsible="true" load="60.0"/>
+        <allocation task-id="37" resource-id="9" function="Default:0" responsible="false" load="60.0"/>
+        <allocation task-id="38" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
